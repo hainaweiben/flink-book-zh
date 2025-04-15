@@ -46,7 +46,7 @@ subtrees:
           - file: ch-state-checkpoint/exercise-state
       - file: ch-flink-connectors/index
         entries:
-          - file: ch-flink-connectors/Exactly-Once-guarantee
+          - file: ch-flink-connectors/exactly-once-guarantee
           - file: ch-flink-connectors/custom-source-and-sink
           - file: ch-flink-connectors/flink-connector
           - file: ch-flink-connectors/exercise-stock-price-data-stream

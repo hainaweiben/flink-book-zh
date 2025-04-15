@@ -35,6 +35,7 @@ Flink 支持上图所示的几种数据类型：基础类型、数组、复合�
 
 基础类型或其他对象类型组成的数组，如 `String[]`、`Integer[]` 等。
 
+(composite-types)=
 ### 复合类型
 
 #### Scala case class

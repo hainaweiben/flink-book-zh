@@ -28,7 +28,7 @@ export HADOOP_CLASSPATH=`hadoop classpath`
 
 上面的命令中，`hadoop` 是 Hadoop 提供的二进制命令工具，使用前必须保证 `hadoop` 命令添加到了环境变量 `$PATH` 中，`classpath` 是 `hadoop` 命令的一个参数选项。`hadoop classpath` 可以返回 Hadoop 所有相关的依赖包，将这些路径输出。如果在一台安装了 Hadoop 的节点上执行 `hadoop classpath`，下面是部分返回结果。
 
-```plaintext
+```text
 /path/to/hadoop/etc/hadoop:/path/to/hadoop/share/hadoop/common/lib/*:/path/to/hadoop/share/hadoop/yarn/lib/*:...
 ```
 

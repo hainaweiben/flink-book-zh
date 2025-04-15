@@ -1,11 +1,11 @@
 name: Deploy
 
 on:
-  pull_request:
-    branches:
-      - 'master'
-    types: [closed]
+  push:
+    tags:
+      - '*'
 
+        
 jobs:
   build:
     if: github.event.pull_request.merged == true
